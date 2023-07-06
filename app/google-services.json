@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "955947971089",
+    "project_id": "masoko-cae35",
+    "storage_bucket": "masoko-cae35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955947971089:android:b9596cf0433317b70477b0",
+        "android_client_info": {
+          "package_name": "com.example.masoko"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955947971089-6gr3pcm0am5j9gl40okarkrd2p15or52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTs73_8WrN437k_LBjuajHt6eR1ZKqklA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955947971089-6gr3pcm0am5j9gl40okarkrd2p15or52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
