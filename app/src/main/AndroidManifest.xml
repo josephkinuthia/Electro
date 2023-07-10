@@ -13,6 +13,24 @@
         android:theme="@style/Theme.Masoko"
         tools:targetApi="31">
         <activity
+            android:name=".whatapp"
+            android:exported="false" />
+        <activity
+            android:name=".facebook"
+            android:exported="false" />
+        <activity
+            android:name=".instagram"
+            android:exported="false" />
+        <activity
+            android:name=".socialmediaactivity"
+            android:exported="false" />
+        <activity
+            android:name=".settingactivity"
+            android:exported="false" />
+        <activity
+            android:name="."
+            android:exported="false" />
+        <activity
             android:name=".broomactivity"
             android:exported="false" />
         <activity

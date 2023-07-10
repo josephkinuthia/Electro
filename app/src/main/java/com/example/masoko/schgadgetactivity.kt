@@ -55,7 +55,7 @@ class schgadgetactivity : AppCompatActivity() {
 
             setting.setOnClickListener {
                 Toast.makeText(applicationContext,"you have clicked Setting", Toast.LENGTH_LONG).show()
-                val nextpage= Intent(this,homeactivity::class.java)
+                val nextpage= Intent(this,settingactivity::class.java)
                 startActivity(nextpage)
             }
             logout.setOnClickListener {

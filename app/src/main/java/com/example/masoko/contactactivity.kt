@@ -8,7 +8,7 @@ import android.widget.Button
 import android.widget.Toast
 
 class contactactivity : AppCompatActivity() {
-    lateinit var call: Button
+ private lateinit var call: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_contactactivity)
