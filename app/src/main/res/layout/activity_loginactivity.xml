@@ -6,13 +6,15 @@
     android:orientation="vertical"
     android:gravity="center"
     android:layout_height="match_parent"
-    android:background="@drawable/img_1"
     tools:context=".loginactivity">
 
-    <ImageView
-        android:layout_width="72dp"
-        android:layout_height="102dp"
-        android:src="@drawable/baseline_login_24" />
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/icon" />
 
     <EditText
         android:id="@+id/email"
@@ -53,7 +55,7 @@
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:textSize="15dp"
-        android:backgroundTint="#F10A0A"
+        android:backgroundTint="#3F51B5"
         android:layout_marginTop="30dp"
         android:layout_marginRight="15dp"
         android:layout_marginLeft="15dp"
@@ -66,7 +68,7 @@
         android:id="@+id/text"
         android:layout_marginTop="20dp"
         android:textSize="15dp"
-        android:textColor="#DA2525"
+        android:textColor="#3F51B5"
         android:layout_marginLeft="60dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
